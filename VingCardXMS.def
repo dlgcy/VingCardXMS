@@ -1,0 +1,9 @@
+; VingCardXMS.def : Declares the module parameters for the DLL.
+
+LIBRARY      "VingCardXMS"
+DESCRIPTION  'VingCardXMS Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+XMS_ReadCard
+XMS_WriteCard
